@@ -11,4 +11,19 @@
       <Folder Include="Files\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Files\1 текст.txt" />
+      <Content Include="Files\1 текст.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Files\2 текст.txt" />
+      <Content Include="Files\2 текст.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Files\3 текст.txt" />
+      <Content Include="Files\3 текст.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
